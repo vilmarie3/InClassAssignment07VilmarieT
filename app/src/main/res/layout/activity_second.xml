@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/drink_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/main_category_name"
+        android:textColor="@color/dark_blue" />
+
+    <EditText
+        android:id="@+id/alcohol_choices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/edit_text_alcohol"
+
+        >
+
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/ice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/checkbox"
+        android:padding="15dp"
+        android:textColor="@color/dark_blue" />
+
+    <EditText
+        android:id="@+id/number_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/total_number_ingredients"
+        android:textColor="@color/dark_blue" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@color/mustard"
+        android:onClick="launchActivity"
+        android:text="@string/submit" />
+
+</LinearLayout>

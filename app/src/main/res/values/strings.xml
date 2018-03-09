@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InClassAssignment07-VilmarieT</string>
+    <string name="bar_menu">Bar Menu</string>
+    <string name="add_drink_button">Add Drink</string>
+    <string name="main_category_name">Drink Name</string>
+    <string name="checkbox">On the rocks?</string>
+    <string name="edit_text_alcohol">Base Alcohol</string>
+    <string name="total_number_ingredients">Total Number of Ingredients</string>
+    <string name="submit">Mix it up!</string>
+    <string name="menu">Mix It</string>
+</resources>

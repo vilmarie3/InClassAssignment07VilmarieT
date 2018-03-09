@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mustard"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="480dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/first_activity_window"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:layout_margin="10dp"
+        android:background="@color/bone_white"
+        android:gravity="center|top"
+        android:paddingTop="40dp"
+        android:textColor="@color/dark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/addDrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:background="@color/dark_blue"
+        android:textColor="@color/bone_white"
+
+        android:text="@string/add_drink_button"
+        android:onClick="addAnother"
+        android:layout_gravity="bottom|center"/>
+</LinearLayout>
